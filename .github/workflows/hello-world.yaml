@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world action step
-        uses: actions/hello-world-javascript-action@v1
+        uses: actions/hello-world-javascript-action@v2
         with:
-          who-to-greet: ${{secrets.WHO_TO_GREET}} 
+          who-to-greet: ${{ secrets.WHO_TO_GREET }} 
